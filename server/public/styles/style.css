@@ -1,0 +1,26 @@
+
+body {
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  background-color: lightgray;
+}
+
+#person-info {
+  height:100px;
+}
+
+.person-box {
+  height : 25px;
+  width : 25px;
+  border: 1px dotted orange;
+  display:inline-block;
+
+}
+
+.red {
+  background-color:red;
+}
+
+button {
+  background-color: darkgrey;
+  color:white;
+}
