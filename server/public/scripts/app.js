@@ -19,7 +19,7 @@ $(document).ready(function() {
             type: "GET",
             url: "/data",
             success: function(data) {
-                console.log('ajazzz');
+                //console.log('ajazzz');
                 people = data.mu;
                 initialize();
 
@@ -30,7 +30,7 @@ $(document).ready(function() {
 
     function initialize() {
 
-        console.log("initialized", people);
+        //console.log("initialized", people);
         $.each(people, function(i, person) {
             $('#ajax-data').append('<div class="person-box"></div>');
             var $el = $('#ajax-data').children().last();

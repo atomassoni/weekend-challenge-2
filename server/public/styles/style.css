@@ -20,7 +20,6 @@ body {
   background-color:red;
 }
 
-button {
-  background-color: darkgrey;
-  color:white;
+#prev, #next , #ajax-data {
+display: inline-block;
 }
