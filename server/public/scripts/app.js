@@ -3,9 +3,7 @@ var people = [];
 var timerNext = setInterval(nextPerson, 10000);
 
 $(document).ready(function() {
-
-
-
+    //gets the array and makes the boxes on the DOM
     getData();
 
     //if a box is clicked, the current index is set to that box, the person is displayed
@@ -15,7 +13,7 @@ $(document).ready(function() {
     $('#next').on('click', nextPerson);
 
 });
-
+//gets the array and makes the boxes on the DOM
     function getData() {
         $.ajax({
             type: "GET",
